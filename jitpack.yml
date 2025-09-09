@@ -1,3 +1,8 @@
+jvm:
+  # 自定义 groupId 和 artifactId
+  groupId: com.hy
+  artifactId: richmob-topon
+  version: 3.3.3
 install:
   - FILE="-Dfile=richmob-topon.aar"
   - mvn install:install-file $FILE -DgroupId=com.hy -DartifactId=richmob-topon -Dversion=3.2.7 -Dpackaging=aar -DpomFile=pom.xml
